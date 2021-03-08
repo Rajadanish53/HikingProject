@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- all the cdn links end -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo"><i class="fas fa-mountain"></i>H&D CLUB</div>
+      <div class="links">
+        <a href="About">About Us</a>
+        <a href="About">Contact Us</a>
+      </div>
+    </nav>
+
+    <div class="header">
+      <div class="textheader container">
+        <h1>Hiking & Adventure<br />Club</h1>
+        <p>The Best View Comes After Hardest Climb..</p>
+      </div>
+      <i class="fas fa-arrow-circle-down arrowdown"></i>
+    </div>
+    <section class="populartours">
+      <div class="mostpopular">
+        <h1 class="populartag">Most Popular Tours</h1>
+        <hr class="lineone" />
+        <hr class="linetwo" />
+      </div>
+      <!-- carousel code -->
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-ride="carousel"
+        style="width: 90%"
+      >
+        <div class="carousel-inner" style="border-radius: 20px">
+          <div class="carousel-item active" style="border-radius: 20px">
+            <img
+              class="d-block w-100 img-fluid"
+              style="border-radius: 20px"
+              src="destinationone.jpg"
+              alt="First slide"
+            />
+            <div class="carousel-caption d-md-block">
+              <h1 class="captionc">8 Days Trip to South River Lake</h1>
+              <p>5 Days | from <span class="price">Rs 4000/- Only</span></p>
+            </div>
+          </div>
+          <div class="carousel-item" style="border-radius: 20px">
+            <img
+              class="d-block w-100 img-fluid"
+              style="border-radius: 20px"
+              src="destinationfour.jpg"
+              alt="First slide"
+              style="border-radius: 20px"
+            />
+            <div class="carousel-caption d-md-block">
+              <h1 class="captionc">18 Days Trip to Mountains Of Olaska</h1>
+              <p class="textc">
+                14 Days | from <span class="price">Rs 15000/- Only</span>
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item" style="border-radius: 20px">
+            <img
+              class="d-block w-100 img-fluid"
+              style="border-radius: 20px"
+              src="destinationthree.jpg"
+              alt="First slide"
+            />
+            <div class="carousel-caption d-md-block">
+              <h1 class="captionc">8 Days Trip to South River Lake</h1>
+              <p>5 Days | from <span class="price">Rs 9000/- Only</span></p>
+            </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <!-- carousel close -->
+    </section>
+    <!-- section close -->
+    <section class="topdestination populartours">
+      <div class="mostpopular">
+        <h1 class="populartag">Top Destinations</h1>
+        <h5 class="text-muted">
+          This is the most popular destination in the last month
+        </h5>
+        <hr />
+        <hr />
+      </div>
+      <div class="cards container">
+        <div
+          class="card"
+          style="width: 400px"
+          data-aos="fade-right"
+          data-aos-duration="2000"
+        >
+          <img class="card-img-top" src="naran.jpg" alt="Card image cap" />
+          <div class="card-body" style="border-radius: 20px">
+            <h5 class="card-title" style="font-size: 3.4rem">Naran</h5>
+            <p class="card-text" style="font-size: 2rem">
+              The Sweet Valley with the essence of Nature..
+            </p>
+            <a href="#" class="gobtn" style="font-size: 1.6rem">Visit Now</a>
+          </div>
+        </div>
+        <div
+          class="card"
+          style="width: 400px"
+          data-aos="fade-left"
+          data-aos-duration="2000"
+        >
+          <img class="card-img-top" src="hunza.jpg" alt="Card image cap" />
+          <div class="card-body" style="border-radius: 20px">
+            <h5 class="card-title" style="font-size: 3.4rem">Hunza</h5>
+            <p class="card-text" style="font-size: 2rem">
+              The place of nature touch and great trees with wind blowing
+              through them~~
+            </p>
+            <a href="#" class="gobtn" style="font-size: 1.6rem">Visit Now</a>
+          </div>
+        </div>
+        <div
+          class="card"
+          style="width: 400px"
+          data-aos="fade-right"
+          data-aos-duration="2000"
+        >
+          <img class="card-img-top" src="swat.jpg" alt="Card image cap" />
+          <div class="card-body" style="border-radius: 20px">
+            <h5 class="card-title" style="font-size: 3.4rem">Swat</h5>
+            <p class="card-text" style="font-size: 2rem">
+              The Beauty of lakes visit to see his beautiful lakes
+            </p>
+            <a href="#" class="gobtn" style="font-size: 1.6rem">Visit Now</a>
+          </div>
+        </div>
+        <div
+          class="card"
+          style="width: 400px"
+          data-aos="fade-left"
+          data-aos-duration="2000"
+        >
+          <img class="card-img-top" src="kashmir.jpg" alt="Card image cap" />
+          <div class="card-body" style="border-radius: 20px">
+            <h5 class="card-title" style="font-size: 3.4rem">Kashmir</h5>
+            <p class="card-text" style="font-size: 2rem">
+              The beautiful place to visit due to its nature and its lakes
+            </p>
+            <a href="#" class="gobtn" style="font-size: 1.6rem">Visit Now</a>
+          </div>
+        </div>
+        <div
+          class="card"
+          style="width: 400px"
+          data-aos="fade-up"
+          data-aos-duration="3000"
+        >
+          <img class="card-img-top" src="abbotabad.jpg" alt="Card image cap" />
+          <div class="card-body" style="border-radius: 20px">
+            <h5 class="card-title" style="font-size: 3.4rem">Abbotabad</h5>
+            <p class="card-text" style="font-size: 2rem">
+              Touch the sky from the mountains of abbotabad a great place to
+              visit
+            </p>
+            <a href="#" class="gobtn" style="font-size: 1.6rem">Visit Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section close -->
+    <section
+      class="activities populartours"
+      data-aos="zoom-in"
+      data-aos-duration="3000"
+    >
+      <div class="mostpopular">
+        <h1 class="populartag">Activities</h1>
+
+        <hr />
+        <hr />
+      </div>
+
+      <div class="images container">
+        <div class="wrapper">
+          <img src="boating.jpg" alt="" />
+          <h1>Boating</h1>
+        </div>
+        <div class="wrapper">
+          <img src="paragliding.jpg" alt="" />
+          <h1>Paragliding</h1>
+        </div>
+        <div class="wrapper">
+          <img src="camping.jpg" alt="" />
+          <h1>Camping</h1>
+        </div>
+      </div>
+    </section>
+    <!-- section close -->
+    <section class="trails populartours">
+      <div class="mostpopular">
+        <h1 class="populartag">Hiking Trails</h1>
+        <hr />
+        <hr />
+      </div>
+      <!-- trail 1 -->
+      <!-- populartag close -->
+      <!-- trail end -->
+      <div class="trailboxes">
+        <div class="trailbox">
+          <p>
+            <button
+              class="trailtag"
+              type="button"
+              data-toggle="collapse"
+              data-target="#one"
+              aria-expanded="false"
+              aria-controls="one"
+            >
+              TRAIL - 2 (ZOO TO DAMN - E - KOH)<i
+                class="fas fa-arrow-circle-down arrowdown"
+              ></i>
+            </button>
+          </p>
+
+          <div class="collapse" id="one">
+            <div class="card card-body trailbody">
+              Trail-2 leading up to Damn-e-Koh is ashort trail. It has two
+              distinct trail heads. First is located at a narrow dirt track
+              astride Marghazar Zoo. Alternately, a well-marked trail head is
+              present at the start of Pir Sohawa Road, short of Trail-4 parking
+              area. The trail is short but steep and it takes almost 45 minutes
+              to reach the top. It can be a good choice if one is looking for a
+              short Sunday hike with family. The track does not end at
+              Damn-e-Koh and has an extension towards the Cactus Ridge. 1.4 km
+              long trail starts just across the road, opposite Damn-e-Koh main
+              parking and leads to Cactus Ridge. The top of Cactus Ridge offers
+              panoramas of Islamabad.
+            </div>
+          </div>
+        </div>
+        <div class="trailbox">
+          <p>
+            <button
+              class="trailtag"
+              type="button"
+              data-toggle="collapse"
+              data-target="#two"
+              aria-expanded="false"
+              aria-controls="two"
+            >
+              TRAIL-6 (CHAK JABBI) - RIDGE TRAIL<i
+                class="fas fa-arrow-circle-down arrowdown"
+              ></i>
+            </button>
+          </p>
+
+          <div class="collapse" id="two">
+            <div class="card card-body trailbody">
+              The valley to the north of Faisal Mosque is locally also known as
+              Darra Kavani.Trail-6 or the Chak Jabbi Trail is one of the latest
+              trails that has officially been recognized and opened to general
+              public. Trail head is located at the rear of Faisal Mosque near
+              car parking. It is about 4km long and leads up to Village Jabbi.
+              This trail gradually gains height and passes through thick jungle.
+              After about half an hour from the start point, it takes you to a
+              beautiful water spring with date and palm trees around it. The
+              upper half of trail consists of steep climb and reaches to the
+              small village of Jabbi about 4 km from the Faisal Mosque. Going
+              straight ahead to north the trail takes you right up to the ridge
+              known locally as Budho Ban where your options are to return, turn
+              west on the Ridge Trail and go into another valley and come down,
+              or turn east and continue walking on the Ridge Trail until you
+              reach Pir Sohawa Road. Trail is surrounded by thick vegetation and
+              water spring is also accessible during the hike at different
+              places. It also links up with the adjacent Trail-4 and leads up to
+              the parking at Pir Sohwa Road. Trail has been appropriately
+              marked, is well maintained and can be done with family in about 3
+              hours’ time from start to finish. The Ridge Trail This trail runs
+              along the top of the first ridge in the hills overlooking
+              Islamabad. The Ridge Trail begins at Boulder Pass (Kot Ban) and
+              ends at Pir Sohawa Road. The total length of the trail is about 8
+              km and takes four to five hours to reach Pir Sohawa Road from Kot
+              Ban. The hike starts at the small cemetery from where the trail
+              goes uphill along the ridge then continues on the northern side
+              overlooking Khyber Pakhtunkhwa passing through an olive grove to a
+              saddle with a number of ruined houses overgrown with fig trees. It
+              follows the ridge on the northern side until the head of Kalinjher
+              Valley and continues on the southern side of the ridge overlooking
+              Islamabad, partly along the crest of the ridge up to Pir Sohawa
+              Road.
+            </div>
+          </div>
+        </div>
+        <div class="trailbox">
+          <p>
+            <button
+              class="trailtag"
+              type="button"
+              data-toggle="collapse"
+              data-target="#three"
+              aria-expanded="false"
+              aria-controls="three"
+            >
+              TRAIL-3 (SECTOR F-6)<i
+                class="fas fa-arrow-circle-down arrowdown"
+              ></i>
+            </button>
+          </p>
+
+          <div class="collapse" id="three">
+            <div class="card card-body trailbody">
+              Trail 3 ascends over 600 meters up to Gokina Chauki (Monal
+              Restaurant) on the Pir Sohawa road. It takes almost 90 minutes to
+              reach the top. This is a popular hiking trail of Margallah Hills
+              which is well marked and properly maintained. Trail head is
+              located opposite Sector F-6 on Margallah Road and a dedicated
+              parking area is available at that point. Initial ascent of trail
+              is steep and it takes over half an hour of moderate hike to reach
+              the ‘Viewpoint.’ Viewpoint offers great sights of Islamabad and
+              almost all major buildings, monuments, avenues are identifiable
+              with naked eye from here. For majority of the hikers with
+              families, View Point marks as the culmination point of Trail-3.
+              However, for the more enthusiastic ones, it is just one third of
+              the journey. Beyond Viewpoint, the trail passes through trees
+              constantly going uphill. Area around mid of Trail-3 is relatively
+              plain. With no water source near or along the trail, it is
+              suggested to carry water bottles. All along Trail 3, benches lie
+              at appropriate places for rest, a luxury which is nonexistent on
+              any of the other trails. From the mid-way, it takes almost an hour
+              of rigorous hike to reach finish point near popular recreational
+              spot of Monal Restaurant on Pir Sohawa Road. Due to its ease of
+              access, proper marking, suitable resting places, appropriate
+              cleaning measures and better maintenance, Trail-3 is a popular
+              choice for hikers of all ages.
+            </div>
+          </div>
+        </div>
+        <div class="trailbox">
+          <p>
+            <button
+              class="trailtag"
+              type="button"
+              data-toggle="collapse"
+              data-target="#five"
+              aria-expanded="false"
+              aria-controls="five"
+            >
+              TRAIL-5 (DARRA JANGLA)<i
+                class="fas fa-arrow-circle-down arrowdown"
+              ></i>
+            </button>
+          </p>
+
+          <div class="collapse" id="five">
+            <div class="card card-body trailbody">
+              This trail lies in the Darra Jangla valley, a half kilometer
+              beyond trail 3 and is one of the most wooded and quiet valley in
+              the National Park. This trail is also quite popular. The visitor
+              facilities are located at the entrance of the valley and include a
+              medium sized car park, a large forest nursery to raise indigenous
+              plants, Visitor Information and Education Center, picnic areas,
+              and a campsite. Earlier it was not open for the general public due
+              to security concerns but can now be visited. The start point is
+              located few hundred meters ahead of Trail-3 opposite to Sector F-5
+              on Margallah Road and it leads up to Pir Sohawa Road. This trail
+              has about three sub-trails and is also linked with the adjacent
+              Trail-3. At the start point, presence of a seasonal water stream
+              makes it a popular picnic spot for families. Initially water
+              stream goes along the trail making it more enjoyable and in the
+              mid, a fresh water spring provides a good resting spot for hikers.
+              Second half of Trail-5 is steeper which requires strenuous hiking.
+              At the top, it offers beautiful vistas of the Islamabad city and
+              finishes near a security check post on main Pir Sohawa Road. About
+              500 m walk on the main road towards west leads to Monal
+              Restaurant. Trail is rigorous and is recommended for families’
+              upto ‘Ficus Spring’ only.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer data-aos="fade-up" data-aos-duration="3000">
+      <div class="container" style="padding: 5rem">
+        <div class="row">
+          <div class="col col-lg-3 col-md-5 col-sm-12 box1">
+            <h1>Locations</h1>
+            <a href="">Abbotabad</a>
+            <a href="">Balochistan</a>
+            <a href="">Hunza</a>
+            <a href="">Kashmir</a>
+            <a href="">Murree</a>
+            <a href="">Fairy Meadows</a>
+          </div>
+          <div class="col col-lg-3 col-md-5 col-sm-12 box2">
+            <h1>Activities</h1>
+            <a href="">Boating</a>
+            <a href="">Camping</a>
+            <a href="">Caving</a>
+            <a href="">Cliff Diving</a>
+            <a href="">Paragliding</a>
+            <a href="">Sight Seeing</a>
+          </div>
+          <div class="col col-lg-4 col-sm-12 box3">
+            <h1>Hotels</h1>
+            <h2>Coming Soon...</h2>
+          </div>
+          <hr>
+          <!-- ending of row -->
+          <div class="row">
+              <div class="col col-xl-4"><h1>Contacts</h1>
+            <h2>+923325867390</h2>
+            <h3 class="text-muted">Round the clock support</h3>
+            <div class="location">
+                <i class="fas fa-map-marker-alt"></i><h2>Rawalpindi Shamsabad</h2>
+            </div>
+
+            </div>
+              <div class="col col-xl-4"><h2>info@hikingclub.com.pk</h2>
+            <h3 class="text-muted">For any questions</h3>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="col-lg-3 col-md-5 col-sm-12 box2"><h1>Activities</h1>
+            <a href="">Boating</a>
+            <a href="">Camping</a>
+            <a href="">Caving</a>
+            <a href="">Cliff Diving</a>
+            <a href="">Paragliding</a>
+            <a href="">Sight Seeing</a></div> -->
+
+        <!-- row end -->
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
+<!-- 
+<div class="trailbox">
+    <p>
+        <button class="trailtag" type="button" data-toggle="collapse" data-target="#collapseExample"
+            aria-expanded="false" aria-controls="collapseExample">
+            TRAIL - 2 (ZOO TO DAMN - E - KOH)<i class="fas fa-arrow-circle-down arrowdown"></i>
+        </button>
+    </p>
+
+    <div class="collapse" id="collapseExample">
+        <div class="card card-body trailbody">
+            Trail-2 leading up to Damn-e-Koh is ashort trail. It has two
+            distinct trail heads. First is located at a narrow dirt track
+            astride Marghazar Zoo. Alternately, a well-marked trail head is
+            present at the start of Pir Sohawa Road, short of Trail-4 parking
+            area. The trail is short but steep and it takes almost 45 minutes to
+            reach the top. It can be a good choice if one is looking for a short
+            Sunday hike with family. The track does not end at Damn-e-Koh and
+            has an extension towards the Cactus Ridge. 1.4 km long trail starts
+            just across the road, opposite Damn-e-Koh main parking and leads to
+            Cactus Ridge. The top of Cactus Ridge offers panoramas of Islamabad.
+        </div>
+
+    </div> -->
