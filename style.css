@@ -98,6 +98,15 @@ nav .logo i {
   animation-direction: alternate-reverse;
   margin-right: 1rem;
 }
+nav .logo a {
+  transition: color 0.3s ease-in-out;
+  color: var(--headings);
+  text-decoration: none;
+}
+nav .logo a:hover {
+  text-decoration: none;
+  color: #3f3337af;
+}
 .populartours {
   overflow: hidden;
   margin-top: 2rem;
@@ -267,13 +276,13 @@ footer .info {
   width: 100%;
   margin: 1rem;
 }
-footer hr{
-    width: 100%;
-    height: 0.1px;
-    background: white;
+footer hr {
+  width: 100%;
+  height: 0.1px;
+  background: white;
 }
 footer .row {
-    margin-top: 3rem;
+  margin-top: 3rem;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -308,7 +317,7 @@ footer .box3 h2 {
   color: rgba(255, 255, 255, 0.322);
 }
 footer h1 {
-    margin-top: 1rem;
+  margin-top: 1rem;
   margin-bottom: 1rem;
 }
 @keyframes rotateabit {
@@ -362,6 +371,7 @@ footer h1 {
 .images .wrapper img:hover {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.37);
 }
+
 @keyframes rotate {
   0% {
     transform: rotate(0deg);
@@ -377,6 +387,67 @@ footer h1 {
   }
 }
 
+/* about page all designs */
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50px;
+  right: 48%;
+  color: white;
+  background: var(--headings);
+  clip-path: circle(60px at center center);
+  width: 100%;
+  height: 100vh;
+  transition: all 2s ease-in-out;
+  cursor: pointer;
+}
+.changeskill{
+    cursor: auto;
+ padding-top: 10rem;
+display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50px;
+  right: 48%;
+  color: white;
+  background: var(--headings);
+  clip-path: circle(100% at center center);
+  width: 100%;
+  height: 100%;
+  transition: all 2s ease-in-out;
+}
+.allcontent{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.allcontent h3{
+    line-height: 1.8;
+}
+.allcontent .gallery{
+    margin-top: 1rem;
+}
+.allcontent .gallery h1{
+    text-align: center;
+    font-size: 5rem;
+}
+.allcontent img{
+    margin: 2rem;
+    border-radius: 20px;
+    width: 50%;
+    
+}
+.allcontent .gallery .images{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.allcontent .gallery .images img{
+    width: 240px;
+}
 @media screen and (max-width: 1440px) {
   html {
     font-size: 54% !important;
